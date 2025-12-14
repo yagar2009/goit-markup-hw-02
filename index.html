@@ -2,78 +2,90 @@
 <html lang="en">
   <head>
     <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>WebStudio</title>
     <meta
       name="description"
       content="Effective solutions for your business by WebStudio."
     />
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/2.0.0/modern-normalize.min.css" integrity="sha512-4xo8blKMVCiXpTaLzQSLSw3KFOVPWhm/TRtuPVc4WG6kU88H5D/tY+55T0rSahp00sN74Dy32qRmJiG7xE60LA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link rel="stylesheet" href="./css/styles.css" />
+    
   </head>
   <body>
-    <header>
-      
-      <nav>
-      <a href="./index.html">WebStudio</a>
+    <header class="page-header">
+      <div class="container">
+        <nav class="header-nav">
+          <a href="./index.html" class="logo">Web<span class="logo-second-part">Studio</span></a>
 
-      <!-- MENU HEADER -->
-      
-        <ul>
-          <li><a href="./index.html">Studio</a></li>
-          <li><a href="#">Portfolio</a></li>
-          <li><a href="#">Contacts</a></li>
-        </ul>
-      </nav>
+          <ul class="nav-list">
+            <li class="nav-item"><a href="./index.html" class="nav-link">Studio</a></li>
+            <li class="nav-item"><a href="" class="nav-link">Portfolio</a></li>
+            <li class="nav-item"><a href="" class="nav-link">Contacts</a></li>
+          </ul>
+        </nav>
 
-      <!-- contacts -->
-       <address>
-      <ul>
-        <li>
-          <a href="mailto:info@devstudio.com">info@devstudio.com</a>
-        </li>
-        <li>
-          <a href="tel:+110001111111">+11 (000) 111-11-11</a>
-        </li>
-      </ul>
-      </address>
+        <address class="contacts">
+          <ul class="contacts-list">
+            <li class="contacts-item">
+              <a href="mailto:info@devstudio.com" class="contacts-link">info@devstudio.com</a>
+            </li>
+            <li class="contacts-item">
+              <a href="tel:+110001111111" class="contacts-link">+11 (000) 111-11-11</a>
+            </li>
+          </ul>
+        </address>
+      </div>
     </header>
 
     <main>
-      <section>
-        <h1>Effective Solutions for Your Business</h1>
-        <button type="button">Order Service</button>
-      </section>
+      <section class="hero">
+        <div class="container">
+        <h1 class="hero-title">Effective Solutions for Your Business</h1>
+        <button type="button" class="button">Order Service</button>
+        </div>
+      </section> 
 
       <!-- SECTION 1: why us -->
-      <section>
-        <h2> Why???????????????</h2>
+      <section class="why-us">
+        <div class="container">
+        <h2 class="why-us-list">Why Us</h2>
         <ul>
           <li>
-            <h3>Strategy</h3>
-            <p>
+            <h3 class="why-us-title">Strategy</h3>
+            <p class="why-us-text">
               Our goal is to identify the business problem to walk away with the
               perfect and creative solution.
             </p>
           </li>
           <li>
-            <h3>Punctuality</h3>
-            <p>
+            <h3 class="why-us-title">Punctuality</h3>
+            <p class="why-us-text">
               Bring the key message to the brand's audience for the best price
               within the shortest possible time.
             </p>
           </li>
           <li>
-            <h3>Diligence</h3>
-            <p>
+            <h3 class="why-us-title">Diligence</h3>
+            <p class="why-us-text">
               Research and confirm brands with the strongest digital growth opportunities and minimize risk.
             </p>
           </li>
           <li>
-            <h3>Technologies</h3>
-            <p>
+            <h3 class="why-us-title">Technologies</h3>
+            <p class="why-us-text">
               Design practice focused on digital experiences. We bring forth a
               deep passion for problem-solving.
             </p>
           </li>
         </ul>
+        </div>
       </section>
 
       <!-- SECTION 2: our team -->
@@ -120,6 +132,73 @@
         </ul>
       </section>
     </main>
+
+
+
+       <!-- SECTION 3: our portfolio -->
+    <section>
+      <h2>Our Portfolio</h2>
+
+<ul>
+          <li>
+            <img
+              src="./images/Banking-App.jpg"
+              alt="banking app"
+              width="264"
+            />
+            <h3>Banking App</h3>
+            <p>App</p>
+          </li>
+          <li>
+            <img
+              src="./images/Cashless-Payment.jpg"
+              alt="Cashless-Payment"
+              width="264"
+            />
+            <h3>Cashless Payment</h3>
+            <p>Marketing</p>
+          </li>
+          <li>
+            <img
+              src="./images/Meditation-App.jpg"
+              alt="Meditation App"
+              width="264"
+            />
+            <h3>Meditation App</h3>
+            <p>App</p>
+          </li>
+          <li>
+            <img
+              src="./images/Taxi-Service.jpg"
+              alt="Taxi Service"
+              width="264"
+            />
+            <h3>Taxi Service</h3>
+            <p>Marketing</p>
+          </li>
+
+          <li>
+            <img
+              src="./images/Screen-Illustrations.jpg"
+              alt="Screen Illustrations"
+              width="264"
+            />
+            <h3>Screen Illustrations</h3>
+            <p>Design</p>
+          </li>
+
+          <li>
+            <img
+              src="./images/Online-Courses.jpg"
+              alt="Online Courses"
+              width="264"
+            />
+            <h3>Online Courses</h3>
+            <p>Marketing</p>
+          </li>
+          </ul>
+
+    </section>
 
     <footer>
       <!-- LOGO TEXT FOOTER -->
