@@ -11,13 +11,13 @@
 
 .contacts-link:hover,
 .contacts-link:focus {
-  color: #404BBF;
+  color: #404bbf;
 }
 
 body {
   font-family: "Roboto", sans-serif;
-  color: #434455; 
-  background-color: #FFFFFF; 
+  color: #434455;
+  background-color: #ffffff;
 }
 
 .logo {
@@ -26,7 +26,7 @@ body {
   font-weight: 700;
   line-height: 1.17;
   letter-spacing: 0.03em;
-  text-transform:uppercase;
+  text-transform: uppercase;
   color: #4d5ae5;
 }
 
@@ -50,31 +50,27 @@ a {
   color: #2e2f42;
 }
 
-
-
 .nav-link:hover,
-.nav-link:focus, {
-  color: #404bbf; 
+.nav-link:focus {
+  color: #404bbf;
 }
 
 .hero {
-  background-color: #2E2F42; 
+  background-color: #2e2f42;
 }
 
-
 .hero-title {
-  color: #FFFFFF; 
+  color: #ffffff;
   font-size: 56px;
   font-weight: 700;
   line-height: 1.07;
   text-align: center;
 }
 
-
 .button {
-  background-color: #4D5AE5; 
-  color: #FFFFFF;            
-  cursor: pointer;       
+  background-color: #4d5ae5;
+  color: #ffffff;
+  cursor: pointer;
   font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.04em;
@@ -82,30 +78,28 @@ a {
 
 .button:hover,
 .button:focus {
-  background-color: #404BBF; 
+  background-color: #404bbf;
 }
 
-
 .footer {
-  background-color: #2E2F42; 
+  background-color: #2e2f42;
 }
 
 .logo-footer {
-  color: #F4F4FD;
+  color: #f4f4fd;
 }
 .page-footer {
-  background-color: #2E2F42; 
- 
+  background-color: #2e2f42;
 }
 
 .footer-text {
-  color: #F4F4FD; 
+  color: #f4f4fd;
   line-height: 1.5;
   letter-spacing: 0.02em;
 }
 
 .our-team {
-  background-color: #F4F4FD;
+  background-color: #f4f4fd;
 }
 
 .team-name {
@@ -126,9 +120,9 @@ a {
 
 .team-item {
   background-color: #ffffff;
-
 }
-.team-title, .team-text {
+.team-title,
+.team-text {
   text-align: center;
 }
 .team-title {
@@ -144,16 +138,16 @@ a {
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
-  text-align: center;      
-  color: #2E2F42;          
+  text-align: center;
+  color: #2e2f42;
 }
 
 .team-text {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  text-align: center;     
-  color: #434455;         
+  text-align: center;
+  color: #434455;
 }
 
 .portfolio-header {
@@ -162,21 +156,18 @@ a {
   line-height: 1.11;
   letter-spacing: 0.02em;
   text-align: center;
-  color: #2E2F42;
+  color: #2e2f42;
 }
 
-
 .portfolio-title {
-  
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
-  color: #2E2F42;
+  color: #2e2f42;
 }
 
 .portfolio-text {
-
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
